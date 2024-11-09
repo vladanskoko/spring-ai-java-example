@@ -24,4 +24,9 @@ public class ChatController {
         return chatService.generateJsonResponse(query);
     }
 
+    @GetMapping("/songs")
+    public String getSongsByArtist(@RequestParam(defaultValue = "Michael Jackson") String artist) {
+        return chatService.getSongsByArtist(artist);
+    }
+
 }
