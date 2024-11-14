@@ -6,10 +6,12 @@ GET http://localhost:8080/api/chat/generate?query=what is AI?
 ###
 GET http://localhost:8080/api/chat/generate-json
 Accept: application/json
+Content-Type: application/json
 
 ###
 GET http://localhost:8080/api/chat/generate-json?query=what is AI?
 Accept: application/json
+Content-Type: application/json
 
 ###
 GET http://localhost:8080/api/chat/songs
