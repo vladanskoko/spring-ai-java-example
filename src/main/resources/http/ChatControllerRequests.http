@@ -1,9 +1,7 @@
 GET http://localhost:8080/api/chat/generate
-Accept: application/json
 
 ###
 GET http://localhost:8080/api/chat/generate?query=what is AI?
-Accept: application/json
 
 ###
 GET http://localhost:8080/api/chat/generate-json
@@ -15,10 +13,8 @@ Accept: application/json
 
 ###
 GET http://localhost:8080/api/chat/songs
-Accept: application/json
 
 ###
 GET http://localhost:8080/api/chat/songs?artist=Elvis Presley
-Accept: application/json
 
 ###
